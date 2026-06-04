@@ -8,7 +8,9 @@ The system combines image preprocessing, deep feature learning, knowledge distil
 
 ---
 
-## Features
+## Features 
+
+
 
 - Iris-based biometric authentication
 - Image preprocessing and enhancement
@@ -42,7 +44,7 @@ The following image preprocessing steps were used:
 6. Pupil Detection using Hough Circle Transform  
 7. Iris Segmentation  
 8. Normalization  
-9. Resize to 128x128
+9. Resize to 128X128
 
 ---
 
