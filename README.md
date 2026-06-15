@@ -102,12 +102,26 @@ The system was evaluated using:
 
 ## Project Structure
 
-```bash
-├── dataset/
-├── preprocessing/
-├── models/
-├── training/
-├── evaluation/
-├── results/
-├── notebooks/
-├── README.md
+├── Preprocessing.ipynb # Data preprocessing, iris segmentation, normalization, and enhancement 
+├── training.py # CNN training, knowledge distillation, pruning, and quantization 
+├── cross_validation.py # 5-Fold cross-validation and performance evaluation 
+└── README.md # Project documentation
+
+## File Descriptions
+
+Preprocessing.ipynb
+Performs iris image preprocessing and enhancement.
+Includes grayscale conversion, filtering, pupil detection, iris segmentation, normalization, and image resizing.
+training.py
+
+Implements the CNN-based iris recognition model.
+Handles teacher-student knowledge distillation.
+Applies model compression techniques such as pruning and quantization.
+Trains and saves the optimized models.
+
+cross_validation.py
+Evaluates model performance using 5-Fold Cross Validation.
+Computes metrics such as Accuracy, ROC-AUC, EER, FAR, and FRR.
+
+README.md
+Contains project overview, methodology, setup instructions, results, and documentation.
