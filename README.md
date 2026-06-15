@@ -101,11 +101,13 @@ The system was evaluated using:
 ---
 
 ## Project Structure
-
+```text
+.
 ├── Preprocessing.ipynb # Data preprocessing, iris segmentation, normalization, and enhancement 
 ├── training.py # CNN training, knowledge distillation, pruning, and quantization 
 ├── cross_validation.py # 5-Fold cross-validation and performance evaluation 
 └── README.md # Project documentation
+```
 
 ## File Descriptions
 
